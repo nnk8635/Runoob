@@ -2,7 +2,7 @@ import java.util.StringTokenizer;
 
 public class JavaStringTokenizerEmp {
     public static void main(String[] args) {
-        String str = "This is String , split bu StringTokenizer, created by runoob";
+        String str = "This is String , split by StringTokenizer, created by runoob";
         StringTokenizer st = new StringTokenizer(str);
         System.out.println("------通过空格分隔------");
         while(st.hasMoreElements()){
